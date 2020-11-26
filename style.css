@@ -48,7 +48,6 @@ header{
 /* profile picture */
  .profile-pic {
     border-radius: 50px;  
-    /*padding-top: 15px;*/
     position:absolute;
     left: 75%;  
     top:155%;
@@ -94,19 +93,19 @@ ul {
 
 /* pseudo-class selectors for contact links*/
 a:link {
-    color:#48BFE3;
+    color:#000000;
 }
 
 a:visited {
-    color: #7400B8;
+    color: #000000;
 }
 
 a:hover {
-    color: #72EFDD;
+    color: #6D0315;
 }
 
 a:active {
-    color: #84A59D;
+    color: #6D0315;
 }
 
   /* footer */
