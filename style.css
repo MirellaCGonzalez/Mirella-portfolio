@@ -3,70 +3,46 @@
 }
 
 
-header{
-    /*border-bottom: 2px solid #0081A7;
-    background-color: #0081A7; */
-    /*background-image: url("images/starbucks coffee mug and laptop.jpg");*/
-    position: absolute;
-    z-index: 2; 
 
-}
+
 .background-image {
     position: relative;
     z-index: 1;
-    width:100%;
-    
+    width: 100%;    
 }
 
- h1 {
-    font-size: 36px;
-    text-transform: uppercase;
-    margin-top: 100px;
-    padding-top: 150px;
-    padding-bottom: 50px;
-    padding-left: 15%;
-    
- 
-  }
 
-  h2{
-    padding-bottom: 50px; 
-    padding-top: 5px;
-    padding-left: 25%;
-    }
 
-   
-
-  header h1, h2 {
-   
-   color: #00AFB9;
+  header h1 {
+   color: #fff;
    font-family: Georgia, 'Times New Roman', Times, serif;
-   font-size: 55px;
    text-shadow: 0px 0px 12px #000;
+   font-size: 36px;
+   text-transform: uppercase;
+   z-index: 3;
     
   }
 
-/* profile picture */
- .profile-pic {
-    border-radius: 50px;  
-    position:absolute;
-    left: 75%;  
-    top:155%;
-    z-index: 3;
 
+.profile-pic {
+    border-radius: 50px;
+    position: relative;   
 }
 
 
 /*about me paragraph*/
 .about-me {
-    margin: 25px;
     padding: 15px;
-    text-align: justify;
+    text-align: justify;   
+}
+
+.about-me, .intro {
+    background-color: #fff;
 }
 
 /*body background color*/
 body {
-    background: #00AFB9;
+    background: #007C85;
 }
 
 /*current skills list*/
@@ -94,25 +70,25 @@ ul {
 
 /* pseudo-class selectors for contact links*/
 a:link {
-    color:#000000;
+    color:#F5F5F5;
 }
 
 a:visited {
-    color: #000000;
+    color: #F5F5F5;
 }
 
 a:hover {
-    color: #6D0315;
+    color: #FFFFFF;
 }
 
 a:active {
-    color: #6D0315;
+    color: #FFFFFF;
 }
 
   /* footer */
 .copyright{
     padding-top: 25px;
     text-align: center;
-    border-top: 2px solid #0081A7;
-    background-color: #0081A7 ;
+    border-top: 2px solid #fff;
+    background-color: #fff ;
 }
